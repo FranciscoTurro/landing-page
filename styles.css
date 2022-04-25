@@ -1,0 +1,21 @@
+body {
+    font-family: "Roboto", sans-serif;
+    min-height: 100%;
+    margin: 0; /*Esta linea hace que se deje de ver el fondo del body*/
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+* {
+    /* outline: 2px solid red; */
+}
+
+.header {
+    background-color: #1f2937;
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
