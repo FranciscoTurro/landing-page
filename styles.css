@@ -11,11 +11,48 @@ body {
     /* outline: 2px solid red; */
 }
 
+a {
+    text-decoration: none;
+    color: #E5E7EB;
+}
+
 .header {
-    background-color: #1f2937;
+    background-color: #1F2937;
+    display: flex;
+    flex-direction: column;
 }
 
 .logo {
-    font-size: 24px;
+    width: 150px;
+    height: auto;
     color: #F9FAF8;
+}
+
+.main-img {
+    width: 400px;
+    height: auto;
+    padding: 16px;
+    margin: 16px;
+}
+
+.links {
+    display: flex;
+    list-style: none;
+    gap: 16px;
+}
+
+.container-logo-links {  /*Contains the links and the logo image so that they can be on the same line*/
+    display: flex;
+    justify-content: space-evenly;
+    padding-bottom: 60px;
+}
+
+.container-header2-button-image {
+    display: flex;
+}
+
+.container-header2-button {
+    display: flex;
+    flex-direction: column;
+    align-items: space-between;
 }
