@@ -32,8 +32,8 @@ a {
 .main-img {
     width: 250px;
     height: auto;
-    padding: 16px;
-    margin: 16px;
+    padding-right: 300px;
+    margin: 20px;
 }
 
 .links {
