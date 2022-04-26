@@ -68,3 +68,10 @@ a {
     font-size: 18px;
     color: #E5E7EB;
 }
+
+.signup {
+    padding: 7px 1em;
+    width: 120px;
+    background-color: white;
+    border-radius: 8px;
+}
