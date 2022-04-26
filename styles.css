@@ -17,7 +17,8 @@ a {
 }
 
 .header {
-    background-color: #1F2937;
+    background-image:url("images/y6vnfX.webp");
+    background-repeat: repeat;    
     display: flex;
     flex-direction: column;
 }
@@ -29,7 +30,7 @@ a {
 }
 
 .main-img {
-    width: 400px;
+    width: 250px;
     height: auto;
     padding: 16px;
     margin: 16px;
@@ -48,11 +49,22 @@ a {
 }
 
 .container-header2-button-image {
-    display: flex;
+    display: flex;    
+    justify-content: space-evenly;
 }
 
 .container-header2-button {
     display: flex;
     flex-direction: column;
-    align-items: space-between;
+}
+
+.headerx2 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #F9FAF8;
+}
+
+.header-paragraph {
+    font-size: 18px;
+    color: #E5E7EB;
 }
