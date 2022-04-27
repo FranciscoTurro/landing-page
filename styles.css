@@ -5,6 +5,8 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-image:url("images/y6vnfX.webp");
+    background-attachment: fixed;
 }
 
 * {
@@ -13,12 +15,10 @@ body {
 
 a {
     text-decoration: none;
-    color: #E5E7EB;
+    color: white;
 }
 
-.header {
-    background-image:url("images/y6vnfX.webp");
-    background-repeat: repeat;    
+.header {    
     display: flex;
     flex-direction: column;
 }
@@ -26,7 +26,7 @@ a {
 .logo {
     width: 150px;
     height: auto;
-    color: #F9FAF8;
+    color: white;
 }
 
 .main-img {
@@ -44,8 +44,10 @@ a {
 
 .container-logo-links {  /*Contains the links and the logo image so that they can be on the same line*/
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     padding-bottom: 60px;
+    padding-left: 80px;
+    padding-right: 80px;
 }
 
 .container-header2-button-image {
@@ -61,12 +63,12 @@ a {
 .headerx2 {
     font-size: 48px;
     font-weight: bold;
-    color: #F9FAF8;
+    color: white;
 }
 
 .header-paragraph {
     font-size: 18px;
-    color: #E5E7EB;
+    color: white;
 }
 
 .signup {
@@ -75,3 +77,36 @@ a {
     background-color: white;
     border-radius: 8px;
 }
+
+.main-1 {
+    background-color: rgba(253, 173, 0, 0.6);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-bottom: 70px;
+    padding-top: 5px;
+}
+
+div.pic-item {
+    vertical-align: top;
+    display: inline-block;
+    text-align: center;
+}
+
+.competitor-bio {
+    width: 250px;
+    height: 250px; 
+}
+
+.caption {
+    display: block;
+}
+
+.bio-container {
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+
