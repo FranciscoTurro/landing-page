@@ -5,8 +5,6 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
-    background-image:url("images/y6vnfX.webp");
-    background-attachment: fixed;
 }
 
 * {
@@ -21,6 +19,8 @@ a {
 .header {    
     display: flex;
     flex-direction: column;
+    background-image:url("images/y6vnfX.webp");
+    background-attachment: fixed;
 }
 
 .logo {
@@ -82,7 +82,7 @@ a {
 }
 
 .main-1 {
-    background-color: rgba(253, 173, 0, 0.6);
+    background-image: linear-gradient(rgb(255, 125, 0),rgb(125, 75, 0));
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -113,4 +113,23 @@ div.pic-item {
     display: block;
 }
 
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 7em 13em;
+    background-image:url("images/American-Deserts_Featured4.webp");
+    background-attachment: fixed;
+    color: white;
+}
 
+.quote p{
+    align-self: flex-end;
+    font-weight: bolder;
+    font-size: 24px;
+}
+
+.quote em{
+    font-size: 36px;
+    font-weight: 100px;
+}
