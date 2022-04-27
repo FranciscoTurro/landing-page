@@ -74,7 +74,7 @@ a {
     white-space:pre-line;
 }
 
-.signup {
+button {
     padding: 7px 1em;
     width: 120px;
     background-color: white;
@@ -82,7 +82,7 @@ a {
 }
 
 .main-1 {
-    background-image: linear-gradient(rgb(255, 125, 0),rgb(125, 75, 0));
+    background-image: linear-gradient(rgb(255, 105, 0),rgb(125, 55, 0));
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -132,4 +132,23 @@ div.pic-item {
 .quote em{
     font-size: 36px;
     font-weight: 100px;
+}
+
+.main-2 {
+    background-image: linear-gradient(rgb(255, 105, 0),rgb(125, 55, 0));
+    padding: 5em 13em;
+    display: flex;
+    flex: 1;
+    justify-content: center;
+}
+
+.modal {
+    background-color: blue;
+    display: flex;
+    justify-content: center;
+}
+
+.modal-small {
+    display: flex;
+    flex-direction: column;
 }
