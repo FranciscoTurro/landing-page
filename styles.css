@@ -26,7 +26,6 @@ a {
 .logo {
     width: 150px;
     height: auto;
-    color: white;
 }
 
 .main-img {
@@ -52,23 +51,27 @@ a {
 
 .container-header2-button-image {
     display: flex;    
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
 .container-header2-button {
     display: flex;
     flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .headerx2 {
     font-size: 48px;
     font-weight: bold;
     color: white;
+    margin: 0;
 }
 
 .header-paragraph {
     font-size: 18px;
     color: white;
+    white-space:pre-line;
 }
 
 .signup {
@@ -93,13 +96,9 @@ div.pic-item {
     text-align: center;
 }
 
-.competitor-bio {
+.competitor-pic {
     width: 250px;
     height: 250px; 
-}
-
-.caption {
-    display: block;
 }
 
 .bio-container {
@@ -107,6 +106,11 @@ div.pic-item {
     gap: 20px;
     flex-wrap: wrap;
     justify-content: center;
+}
+
+.champ-header,.caption {
+    color: white;
+    display: block;
 }
 
 
