@@ -5,6 +5,8 @@ body {
     min-height: 100vh;
     display: flex;
     flex-direction: column;
+    background-image:url("images/American-Deserts_Featured4.webp");
+    background-attachment: fixed;
 }
 
 * {
@@ -13,7 +15,7 @@ body {
 
 a {
     text-decoration: none;
-    color: white;
+    color: black;
 }
 
 .header {    
@@ -64,25 +66,25 @@ a {
 .headerx2 {
     font-size: 48px;
     font-weight: bold;
-    color: white;
+    color: black;
     margin: 0;
 }
 
 .header-paragraph {
     font-size: 18px;
-    color: white;
+    color: black;
     white-space:pre-line;
 }
 
 button {
-    padding: 7px 1em;
+    padding: 7px 16px;
     width: 120px;
     background-color: white;
     border-radius: 8px;
 }
 
 .main-1 {
-    background-image: linear-gradient(rgb(255, 105, 0),rgb(125, 55, 0));
+    background-image: linear-gradient(#b06c46,#d5864e);
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -109,7 +111,7 @@ div.pic-item {
 }
 
 .champ-header,.caption {
-    color: white;
+    color: black;
     display: block;
 }
 
@@ -117,10 +119,8 @@ div.pic-item {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    padding: 7em 13em;
-    background-image:url("images/American-Deserts_Featured4.webp");
-    background-attachment: fixed;
-    color: white;
+    padding: 112px 208px;
+    color: black;
 }
 
 .quote p{
@@ -135,20 +135,21 @@ div.pic-item {
 }
 
 .main-2 {
-    background-image: linear-gradient(rgb(255, 105, 0),rgb(125, 55, 0));
-    padding: 5em 13em;
+    padding: 80px 208px;
     display: flex;
     flex: 1;
-    justify-content: center;
 }
 
 .modal {
-    background-color: blue;
+    background-image: linear-gradient(#b06c46,#d5864e);
     display: flex;
-    justify-content: center;
+    justify-content: space-around;
+    align-items: center;
+    padding: 32px;
+    width: 100%; /*Makes its width always be 100%, useful for when you resize the screen */
+    border-radius: 10px; /*Makes the edges round*/
 }
 
-.modal-small {
-    display: flex;
-    flex-direction: column;
+.footer {
+    background-color: #006aff;
 }
