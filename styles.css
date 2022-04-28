@@ -151,5 +151,9 @@ div.pic-item {
 }
 
 .footer {
-    background-color: #006aff;
+    background-color: rgb(0, 125, 167);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 32px ;
 }
